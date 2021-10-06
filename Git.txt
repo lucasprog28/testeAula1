@@ -30,3 +30,18 @@ git branch staging(ou qualquer outro nome)
 
 como mudar de branch:
 git checkout staging (nome da branch)
+
+
+como colocar as atualizações na branch master(ou a que preferir):
+
+1° passo-> tem que colocar na branch principal:
+git checkout master(ou a que preferir)
+
+2° passo -> trazer as atualizações do servidor para a máquina local:
+git pull
+
+3°passo -> unir os códigos:
+git merge (nome da branch de onde quero puxar as atualizações)
+
+4° passo-> enviar atualização para a branch no servidor:
+git push
