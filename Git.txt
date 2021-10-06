@@ -1,0 +1,32 @@
+
+para verificar o funcionamneto:
+git status
+
+para atualizar todas as modificações:
+git add .
+
+
+Fazer o commit:
+
+git commit -m"O que foi adicioado na versão"
+
+Enviar commit:
+git push
+
+Vê histótico das versões do meu código:
+git refolg
+
+navegar entre versões do meu código(voltar a versão desejada):
+git reset --hard "endereço da versão que se encontra dando um reflog(não usa aspa)"
+
+navegar entre versões do meu código(voltar a versão atual):
+git reset --hard "endereço da versão atual que se encontra dando um reflog(não usa aspa)"
+
+como vê as suas branch(Onde fica salvo as versões):
+git branch
+
+como criar uma branch:
+git branch staging(ou qualquer outro nome)
+
+como mudar de branch:
+git checkout staging (nome da branch)
